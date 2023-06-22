@@ -10,6 +10,7 @@
     ],
     "filePatterns": [
         "pom.xml$",
-        ".mvn"
+        ".mvn",
+        ".*\\.kt$"
     ]
 }
