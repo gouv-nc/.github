@@ -13,6 +13,11 @@
         "Dockerfile"
     ],
     "filePatterns": [
-        "package.json$"
+        "package.json$",
+        "yarn.lock$",
+        ".*\\.js$",
+        ".*\\.javascript$",
+        ".*\\.ts$",
+        ".*\\.typescript$"
     ]
 }
