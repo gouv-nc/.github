@@ -10,7 +10,9 @@
         "Yarn"
     ],
     "filePatterns": [
-        "package.json",
-        "yarn.lock"
+        "package.json$",
+        "yarn.lock$",
+        ".*\\.js$",
+        ".*\\.javascript$"
     ]
 }

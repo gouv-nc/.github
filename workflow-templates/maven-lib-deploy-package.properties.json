@@ -10,7 +10,8 @@
         "Maven"
     ],
     "filePatterns": [
-        "pom.xml",
-        ".mvn"
+        "pom.xml$",
+        ".mvn",
+        ".*\\.java$"
     ]
 }

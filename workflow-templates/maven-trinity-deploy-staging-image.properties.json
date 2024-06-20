@@ -11,8 +11,9 @@
         "Dockerfile"
     ],
     "filePatterns": [
-        "pom.xml",
+        "pom.xml$",
         ".mvn",
-        "Dockerfile"
+        "Dockerfile$",
+        ".*\\.java$"
     ]
 }

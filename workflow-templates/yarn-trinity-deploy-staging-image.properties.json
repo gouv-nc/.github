@@ -6,12 +6,15 @@
     "categories": [
         "continuous-integration",
         "deployment",
+        "TypeScript",
         "Angular",
         "Yarn",
         "Dockerfile"
     ],
     "filePatterns": [
-        "package.json",
-        "yarn.lock"
+        "package.json$",
+        "yarn.lock$",
+        ".*\\.ts$",
+        ".*\\.typescript$"
     ]
 }
