@@ -1,0 +1,23 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+
+updates:
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/" # Location of package manifests
+    registries: "*"
+    schedule:
+      interval: "weekly"
+
+registries:
+  # Needed to access private git registries in gouv-nc.
+  # E.g. https://github.com/gouv-nc/github-ci-lib-yaml.
+  git-github:
+    type: git
+    url: https://github.com
+    username: dinum-bot
+    password: ${{secrets.DINUM_BOT_GITHUB_REPO_ALL}}
