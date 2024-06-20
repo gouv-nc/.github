@@ -1,0 +1,17 @@
+{
+    "name": "Workflow Poetry-Prepare-For-Production",
+    "description": "Ce workflow permet de déployer une image conteneurisée 'stable' d'une application PYTHON-POETRY à chaque push d'un tag git.",
+    "creator": "DINUM - SDA",
+    "iconName": "icon-python",
+    "categories": [
+        "continuous-integration",
+        "deployment",
+        "Python",
+        "TOML",
+        "Dockerfile"
+    ],
+    "filePatterns": [
+        "pyproject.toml",
+        "poetry.lock"
+    ]
+}

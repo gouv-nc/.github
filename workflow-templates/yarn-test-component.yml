@@ -1,0 +1,14 @@
+name: Test component - Yarn
+run-name: ${{ github.event_name }} by ${{ github.actor }}
+on:
+  pull_request:
+    branches:
+      - 'main'
+  push:
+    branches:
+      - 'hotfix/**'
+
+jobs:
+  test-component-yarn:
+    uses: gouv-nc/github-ci-lib-yaml/.github/workflows/callable-yarn-test-component.yml@v2.0.0
+    secrets: inherit

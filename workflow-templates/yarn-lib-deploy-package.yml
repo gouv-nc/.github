@@ -1,0 +1,13 @@
+name: Deploy package - Yarn lib
+run-name: ${{ github.event_name }} by ${{ github.actor }}
+on:
+  push:
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+'
+
+jobs:
+  deploy-package-yarn-lib:
+    uses: gouv-nc/github-ci-lib-yaml/.github/workflows/callable-yarn-lib-deploy-package.yml@v2.0.0
+    secrets: inherit
+    with:
+      git_tag: ${{ github.ref_name }}

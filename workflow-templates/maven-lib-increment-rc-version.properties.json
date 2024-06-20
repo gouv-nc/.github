@@ -1,0 +1,16 @@
+{
+    "name": "Workflow Maven-Lib-Increment-RC-Version",
+    "description": "Ce workflow permet d'incrémenter le numéro de RC d'une librairie JAVA-MAVEN à chaque push sur main.",
+    "creator": "DINUM - SDA",
+    "iconName": "icon-maven",
+    "categories": [
+        "continuous-integration",
+        "deployment",
+        "Java",
+        "Maven"
+    ],
+    "filePatterns": [
+        "pom.xml",
+        ".mvn"
+    ]
+}

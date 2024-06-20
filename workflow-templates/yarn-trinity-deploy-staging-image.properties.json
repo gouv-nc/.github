@@ -1,0 +1,17 @@
+{
+    "name": "Workflow Yarn-Trinity-Deploy-Staging-Image",
+    "description": "Ce workflow permet de déployer une image 'staging' d'une application ANGULAR-YARN à chaque push sur main.",
+    "creator": "DINUM - SDA",
+    "iconName": "icon-yarn",
+    "categories": [
+        "continuous-integration",
+        "deployment",
+        "Angular",
+        "Yarn",
+        "Dockerfile"
+    ],
+    "filePatterns": [
+        "package.json",
+        "yarn.lock"
+    ]
+}

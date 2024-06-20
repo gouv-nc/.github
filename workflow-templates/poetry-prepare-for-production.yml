@@ -1,0 +1,13 @@
+name: Prepare for production - Poetry
+run-name: ${{ github.event_name }} by ${{ github.actor }}
+on:
+  push:
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+'
+
+jobs:
+  prepare-for-production-poetry:
+    uses: gouv-nc/github-ci-lib-yaml/.github/workflows/callable-poetry-prepare-for-production.yml@v2.0.0
+    secrets: inherit
+    with:
+      git_tag: ${{ github.ref_name }}

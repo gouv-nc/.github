@@ -1,0 +1,11 @@
+name: Deploy staging image - Poetry
+run-name: ${{ github.event_name }} by ${{ github.actor }}
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  deploy-staging-image-poetry:
+    uses: gouv-nc/github-ci-lib-yaml/.github/workflows/callable-poetry-deploy-staging-image.yml@v2.0.0
+    secrets: inherit

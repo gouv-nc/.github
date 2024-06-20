@@ -1,0 +1,11 @@
+name: Deploy staging image - Maven trinity
+run-name: ${{ github.event_name }} by ${{ github.actor }}
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  deploy-staging-image-maven-trinity:
+    uses: gouv-nc/github-ci-lib-yaml/.github/workflows/callable-maven-trinity-deploy-staging-image.yml@v2.0.0
+    secrets: inherit

@@ -1,0 +1,11 @@
+name: Increment RC version - Maven lib
+run-name: ${{ github.event_name }} by ${{ github.actor }}
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  increment-rc-version-maven-lib:
+    uses: gouv-nc/github-ci-lib-yaml/.github/workflows/callable-maven-lib-increment-rc-version.yml@v2.0.0
+    secrets: inherit

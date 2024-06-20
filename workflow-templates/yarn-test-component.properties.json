@@ -1,0 +1,17 @@
+{
+    "name": "Workflow Yarn-Test-Component",
+    "description": "Ce workflow permet de tester une application ANGULAR-YARN.",
+    "creator": "DINUM - SDA",
+    "iconName": "icon-yarn",
+    "categories": [
+        "continuous-integration",
+        "testing",
+        "Angular",
+        "Yarn",
+        "Dockerfile"
+    ],
+    "filePatterns": [
+        "package.json",
+        "yarn.lock"
+    ]
+}

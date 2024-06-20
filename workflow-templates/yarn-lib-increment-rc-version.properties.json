@@ -1,0 +1,16 @@
+{
+    "name": "Workflow Yarn-Lib-Increment-RC-Version",
+    "description": "Ce workflow permet d'incrémenter le numéro de RC d'une librairie JAVASCRIPT-YARN à chaque push sur main.",
+    "creator": "DINUM - SDA",
+    "iconName": "icon-yarn",
+    "categories": [
+        "continuous-integration",
+        "deployment",
+        "JavaScript",
+        "Yarn"
+    ],
+    "filePatterns": [
+        "package.json",
+        "yarn.lock"
+    ]
+}

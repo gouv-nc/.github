@@ -1,0 +1,16 @@
+{
+    "name": "Workflow Yarn-Lib-Deploy-Package",
+    "description": "Ce workflow permet de déployer un livrable d'une librairie JAVASCRIPT-YARN à chaque push d'un tag git.",
+    "creator": "DINUM - SDA",
+    "iconName": "icon-yarn",
+    "categories": [
+        "continuous-integration",
+        "deployment",
+        "JavaScript",
+        "Yarn"
+    ],
+    "filePatterns": [
+        "package.json",
+        "yarn.lock"
+    ]
+}

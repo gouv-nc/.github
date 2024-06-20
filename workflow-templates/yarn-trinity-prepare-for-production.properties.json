@@ -1,0 +1,17 @@
+{
+    "name": "Workflow Yarn-Trinity-Prepare-For-Production",
+    "description": "Ce workflow permet de déployer une image conteneurisée 'stable' d'une application ANGULAR-YARN à chaque push d'un tag git.",
+    "creator": "DINUM - SDA",
+    "iconName": "icon-yarn",
+    "categories": [
+        "continuous-integration",
+        "deployment",
+        "Angular",
+        "Yarn",
+        "Dockerfile"
+    ],
+    "filePatterns": [
+        "package.json",
+        "yarn.lock"
+    ]
+}

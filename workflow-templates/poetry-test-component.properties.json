@@ -1,0 +1,17 @@
+{
+    "name": "Workflow Poetry-Test-Component",
+    "description": "Ce workflow permet de tester une application PYTHON-POETRY.",
+    "creator": "DINUM - SDA",
+    "iconName": "icon-python",
+    "categories": [
+        "continuous-integration",
+        "testing",
+        "Python",
+        "TOML",
+        "Dockerfile"
+    ],
+    "filePatterns": [
+        "pyproject.toml",
+        "poetry.lock"
+    ]
+}
