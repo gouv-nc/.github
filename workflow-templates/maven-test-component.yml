@@ -1,5 +1,5 @@
 name: Test component - Maven
-run-name: ${{ github.event_name }} by ${{ github.actor }} - Test component - Maven
+run-name: ${{ github.event_name }} by ${{ github.actor }} - Test component
 on:
   pull_request:
     branches:

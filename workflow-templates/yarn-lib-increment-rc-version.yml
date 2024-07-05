@@ -1,5 +1,5 @@
 name: Increment RC version - Yarn lib
-run-name: ${{ github.event_name }} by ${{ github.actor }} - Increment RC version - Yarn lib
+run-name: ${{ github.event_name }} by ${{ github.actor }} - Increment RC version
 on:
   push:
     branches:

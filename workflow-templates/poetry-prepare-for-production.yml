@@ -1,5 +1,5 @@
 name: Prepare for production - Poetry
-run-name: ${{ github.event_name }} by ${{ github.actor }} - Prepare for production - Poetry
+run-name: ${{ github.event_name }} by ${{ github.actor }} - Prepare for production
 on:
   push:
     tags:

@@ -1,5 +1,5 @@
 name: Deploy package - Yarn lib
-run-name: ${{ github.event_name }} by ${{ github.actor }} - Deploy package - Yarn lib
+run-name: ${{ github.event_name }} by ${{ github.actor }} - Deploy package
 on:
   push:
     tags:

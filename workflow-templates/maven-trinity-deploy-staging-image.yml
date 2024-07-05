@@ -1,5 +1,5 @@
 name: Deploy staging image - Maven trinity
-run-name: ${{ github.event_name }} by ${{ github.actor }} - Deploy staging image - Maven trinity
+run-name: ${{ github.event_name }} by ${{ github.actor }} - Deploy staging image
 on:
   push:
     branches:
