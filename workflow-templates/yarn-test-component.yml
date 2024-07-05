@@ -1,5 +1,5 @@
 name: Test component - Yarn
-run-name: ${{ github.event_name }} by ${{ github.actor }}
+run-name: ${{ github.event_name }} by ${{ github.actor }} - Test component - Yarn
 on:
   pull_request:
     branches:

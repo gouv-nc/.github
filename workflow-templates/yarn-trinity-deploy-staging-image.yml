@@ -1,5 +1,5 @@
 name: Deploy staging image - Yarn trinity
-run-name: ${{ github.event_name }} by ${{ github.actor }}
+run-name: ${{ github.event_name }} by ${{ github.actor }} - Deploy staging image - Yarn trinity
 on:
   push:
     branches:

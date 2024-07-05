@@ -1,5 +1,5 @@
 name: Prepare for production - Maven trinity
-run-name: ${{ github.event_name }} by ${{ github.actor }}
+run-name: ${{ github.event_name }} by ${{ github.actor }} - Prepare for production - Maven trinity
 on:
   push:
     tags:

@@ -1,5 +1,5 @@
 name: Deploy package - Maven lib
-run-name: ${{ github.event_name }} by ${{ github.actor }}
+run-name: ${{ github.event_name }} by ${{ github.actor }} - Deploy package - Maven lib
 on:
   push:
     tags:

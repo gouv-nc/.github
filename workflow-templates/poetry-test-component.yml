@@ -1,5 +1,5 @@
 name: Test component - Poetry
-run-name: ${{ github.event_name }} by ${{ github.actor }}
+run-name: ${{ github.event_name }} by ${{ github.actor }} - Test component - Poetry
 on:
   pull_request:
     branches:

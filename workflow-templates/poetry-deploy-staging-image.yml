@@ -1,5 +1,5 @@
 name: Deploy staging image - Poetry
-run-name: ${{ github.event_name }} by ${{ github.actor }}
+run-name: ${{ github.event_name }} by ${{ github.actor }} - Deploy staging image - Poetry
 on:
   push:
     branches:
